@@ -2,16 +2,13 @@
    Purpose: Solves the book bag assignment problem
  */
 
-use_module(library(clpfd)).
+:- use_module(library(clpfd)).
 
-go([S1, S2], [B1, B2], []) :-
+go([B1, B2, B3], [S1, S2, S3], [H1, H2, H3]) :-
+  member(S1, [B1, B2, B3]),
+  member(S2, [B1, B2, B3]),
+  member(S3, [B1, B2, B3]),
 
-  member(S1, [B1, B2]),
-  member(S2, [B1, B2]),
+  %% Figure out how to do negation of membership in H* history lists
 
-  all_different([S1, S2]),
-  write("S1 = "),
-  write(S1),
-  nl,
-  write("S2 = "),
-  write(S2).
+  all_different([S1, S2, S3]).
