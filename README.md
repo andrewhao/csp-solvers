@@ -18,3 +18,5 @@ Sources
 
 * [Artificial Intelligence: A Modern Approach (3rd Edition)](http://www.amazon.com/Artificial-Intelligence-Modern-Approach-3rd/dp/0136042597/ref=sr_1_1?ie=UTF8&qid=1417214576&sr=8-1&keywords=9780136042594)
 * http://aima.cs.berkeley.edu/2nd-ed/newchap05.pdf
+* [Ruby Forum -- Using Amb](https://www.ruby-forum.com/topic/57768)
+* [SchemeWiki: amb](http://community.schemewiki.org/?amb)
